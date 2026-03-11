@@ -1,5 +1,7 @@
 # 📊 Teste A/B para Campanha de Marketing - Marketing A/B Testing Dataset (Kaggle)
- <img src="https://github.com/Adriele-Cerqueira/PREVENDO-TURNOVER_IBM-HR/blob/main/Capa_AB.png" width="550">
+
+ <img src="https://github.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING/blob/main/Capa_AB.png" width="550">
+ 
 ## Resumo Executivo
 
 Este projeto teve como objetivo avaliar a eficácia de campanhas publicitárias digitais por meio de um experimento de **Teste A/B**, comparando as taxas de conversão entre dois grupos de usuários.  
