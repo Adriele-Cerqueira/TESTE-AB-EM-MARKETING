@@ -117,9 +117,17 @@ Dessa forma, **testes paramétricos tradicionais não são apropriados**, sendo 
 
 ## Resultados e Recomendações de Negócio
 
-A análise revelou que **usuários expostos à campanha publicitária (grupo "ad") apresentaram taxa de conversão significativamente maior que o grupo de controle ("psa")**.
+Inicialmente foi realizada uma **Análise Exploratória de Dados (EDA)** para compreender a distribuição das variáveis e comparar o desempenho entre os grupos experimentais (*ad* e *psa*). A análise revelou que **usuários expostos à campanha publicitária (grupo "ad") apresentaram taxa de conversão significativamente maior que o grupo de controle ("psa")**.
 
-Principais resultados:
+ <img src="https://github.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING/blob/main/Comparacao_Grupos.png" width="550">
+
+Em seguida, foram avaliados os **pressupostos estatísticos** para a aplicação de testes de hipótese. O **teste de normalidade de Shapiro-Wilk** indicou que os dados não seguem distribuição normal (p < 0.05), enquanto o **teste de Levene** apontou variâncias heterogêneas entre os grupos (p < 0.05).
+
+Diante dessas características, foram aplicados testes adequados para **comparação de proporções**, incluindo o **Teste Z para proporções** e o **Teste Qui-quadrado de independência**. Os resultados indicaram **diferença estatisticamente significativa entre os grupos** (p-valor ≈ 1.7e-13), mostrando que a exposição aos anúncios está associada a uma maior taxa de conversão. 
+
+Além disso, vamos verificar tamanho do efeito utilizando Cohen's d para medir a magnitude da diferença entre os grupos. O resultado foi d = 0.0528, indicando um efeito muito pequeno. 
+
+Resumo dos principais resultados:
 
 - Taxa de conversão **≈ 2,55% no grupo ad**
 - Taxa de conversão **≈ 1,79% no grupo psa**
@@ -147,4 +155,4 @@ Essas ações podem contribuir para **melhor alocação de investimento em mídi
 - Realizar **novos experimentos A/B testando diferentes criativos, segmentações ou frequência de anúncios**.  
 
 - Estimar o **impacto financeiro da diferença de conversão**, calculando a receita potencial gerada pelo aumento de conversões.
-- 
+  
