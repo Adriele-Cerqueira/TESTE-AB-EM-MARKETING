@@ -1,13 +1,19 @@
-# 📊 Teste A/B para Campanha de Marketing - Marketing A/B Testing Dataset (Kaggle)
+# TESTE A/B PARA CAMPANHA DE MARKETING
 
  <img src="https://github.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING/blob/main/Capa_AB.png" width="550">
- 
+
+![Python](https://img.shields.io/badge/Python-Data%20Science-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-lightgrey)
+![SciPy](https://img.shields.io/badge/SciPy-Statistical%20Testing-green)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-Statistical%20Modeling-red)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow)
+![Seaborn](https://img.shields.io/badge/Seaborn-Data%20Visualization-purple)
+
+
 ## Resumo Executivo
 
 Este projeto teve como objetivo avaliar a eficácia de campanhas publicitárias digitais por meio de um experimento de **Teste A/B**, comparando as taxas de conversão entre dois grupos de usuários.  
-A análise identificou que o grupo exposto aos anúncios apresentou **taxa de conversão significativamente maior**, indicando impacto positivo da campanha.
-
-Os resultados podem apoiar decisões estratégicas relacionadas à **otimização de investimentos em marketing digital e melhoria da performance de campanhas**.
 
 ---
 
@@ -97,10 +103,6 @@ Dessa forma, **testes paramétricos tradicionais não são apropriados**, sendo 
 - Seaborn  
 - SciPy  
 - Statsmodels  
-
-### Ferramentas de BI
-
-- Power BI  
 
 ### Banco de Dados
 
