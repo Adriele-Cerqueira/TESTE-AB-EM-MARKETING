@@ -121,11 +121,11 @@ Inicialmente foi realizada uma **Análise Exploratória de Dados (EDA)** para co
 
  <img src="https://github.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING/blob/main/Comparacao_Grupos.png" width="550">
 
-Para confirmar essa hipótese, primeiramente foi avaliado os **pressupostos estatísticos** para escolha dos testes de hipótese. O **teste de normalidade de Shapiro-Wilk** indicou que os dados não seguem distribuição normal (p < 0.05), enquanto o **teste de Levene** apontou variâncias heterogêneas entre os grupos (p < 0.05).
+Para confirmar essa hipótese, foram inicialmente avaliados os **pressupostos estatísticos** para a escolha dos testes de hipótese. **O teste de normalidade de Shapiro-Wilk** indicou que os dados **não seguem distribuição normal (p < 0,05**), enquanto o **teste de Levene** apontou **heterogeneidade de variâncias entre os grupos** (p < 0,05).
 
-Diante dessas características, foram aplicados testes adequados para **comparação de proporções**, incluindo o **Teste Z para proporções** e o **Teste Qui-quadrado de independência**. Os resultados indicaram **diferença estatisticamente significativa entre os grupos** (p-valor ≈ 1.7e-13), mostrando que a exposição aos anúncios está associada a uma maior taxa de conversão. 
+Diante dessas características, foram aplicados testes adequados para **comparação de proporções**, incluindo o **teste Z para proporções** e o **teste qui-quadrado de independência**. Os resultados indicaram **diferença estatisticamente significativa entre os grupos (p ≈ 1,7 × 10⁻¹³)**, sugerindo que a exposição aos anúncios está associada a uma **maior taxa de conversão**.
 
-Além disso, vamos verificar tamanho do efeito utilizando Cohen's d para medir a magnitude da diferença entre os grupos. O resultado foi d = 0.0528, indicando um efeito muito pequeno. 
+Além disso, foi calculado o **tamanho do efeito por meio do coeficiente de Cohen (d = 0,0528)**, indicando um **efeito muito pequeno**. Também foi ajustado um modelo de **regressão logística para avaliar o efeito do grupo** experimental sobre a conversão. Os resultados mostraram que os **usuários do grupo ad apresentam aproximadamente 44% mais chance de converter do que os do grupo psa**, indicando que a exposição ao anúncio aumenta significativamente a probabilidade de conversão.
 
 Resumo dos principais resultados:
 
