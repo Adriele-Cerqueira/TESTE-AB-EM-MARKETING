@@ -121,7 +121,7 @@ Inicialmente foi realizada uma **Análise Exploratória de Dados (EDA)** para co
 
  <img src="https://github.com/Adriele-Cerqueira/TESTE-AB-EM-MARKETING/blob/main/Comparacao_Grupos.png" width="550">
 
-Em seguida, foram avaliados os **pressupostos estatísticos** para a aplicação de testes de hipótese. O **teste de normalidade de Shapiro-Wilk** indicou que os dados não seguem distribuição normal (p < 0.05), enquanto o **teste de Levene** apontou variâncias heterogêneas entre os grupos (p < 0.05).
+Para confirmar essa hipótese, primeiramente foi avaliado os **pressupostos estatísticos** para escolha dos testes de hipótese. O **teste de normalidade de Shapiro-Wilk** indicou que os dados não seguem distribuição normal (p < 0.05), enquanto o **teste de Levene** apontou variâncias heterogêneas entre os grupos (p < 0.05).
 
 Diante dessas características, foram aplicados testes adequados para **comparação de proporções**, incluindo o **Teste Z para proporções** e o **Teste Qui-quadrado de independência**. Os resultados indicaram **diferença estatisticamente significativa entre os grupos** (p-valor ≈ 1.7e-13), mostrando que a exposição aos anúncios está associada a uma maior taxa de conversão. 
 
